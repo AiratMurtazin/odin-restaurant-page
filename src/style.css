@@ -45,7 +45,6 @@ header nav button {
 	display: flex;
 	gap: 3%;
 	margin-top: 5%;
-	margin-left: 30%;
 }
 
 .textImg p {
@@ -63,4 +62,25 @@ header nav button {
 	position: absolute;
 	left: 0;
 	border-radius: 50%;
+}
+
+.menuItems {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 370px 370px;
+	width: 90%;
+}
+
+.menuItems li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.menuItems img {
+	height: 55%;
+	width: 70%;
+	border-radius: 6px;
 }

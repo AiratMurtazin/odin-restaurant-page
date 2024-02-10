@@ -2,7 +2,7 @@ export const content = document.querySelector('#content')
 
 export function homePage() {
 	content.innerHTML = `<h1>Griboedov Restaurant</h1>
-    	<img src="../src/assets/images/brown-snake.jpg" alt="brown-snake"/ class="brown-snake">
+    	
   <div class="textImg">
 	<p>
 		Griboedov Restaurant in St. Petersburg stands as an enigmatic haven
