@@ -17,6 +17,7 @@ header nav {
 	display: flex;
 	justify-content: center;
 	gap: 3%;
+	margin-top: 1%;
 }
 
 header nav button {
@@ -49,12 +50,15 @@ header nav button {
 
 .textImg p {
 	width: 40ch;
+	margin-top: 10%;
 }
 
 .griboedovImg {
 	border-radius: 6px;
 	box-shadow: 21px 15px 27px 0px rgba(255, 255, 255, 0.2);
 }
+
+/* MENU */
 
 .brown-snake {
 	width: 25%;
@@ -83,4 +87,8 @@ header nav button {
 	height: 55%;
 	width: 70%;
 	border-radius: 6px;
+}
+
+.textAbout {
+	width: 65ch;
 }

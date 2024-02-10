@@ -1,3 +1,3 @@
 export function contactPage() {
-	content.innerHTML = `<p>Contact page</p>`
+	content.innerHTML = `<p>St.Petersburg, Griboedov st. 69, +79218889999</p>`
 }
